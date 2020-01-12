@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="25" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="577892" started-at="2019-10-12T14:36:37Z" finished-at="2019-10-12T14:46:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="577892" started-at="2019-10-12T14:36:37Z" finished-at="2019-10-12T14:46:15Z">
+      <class name="webappautomation.Zomato">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setExtent" is-config="true" duration-ms="209" started-at="2019-10-12T20:06:37Z" finished-at="2019-10-12T20:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="ConfigureBrowser()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="ConfigureBrowser" is-config="true" duration-ms="15163" started-at="2019-10-12T20:06:37Z" finished-at="2019-10-12T20:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="5" started-at="2019-10-12T20:06:53Z" finished-at="2019-10-12T20:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.OpenZomatoWebsite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="OpenZomatoWebsite()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="OpenZomatoWebsite" duration-ms="35" started-at="2019-10-12T20:06:53Z" finished-at="2019-10-12T20:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenZomatoWebsite -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="12" started-at="2019-10-12T20:06:53Z" finished-at="2019-10-12T20:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenZomatoWebsite status=SUCCESS method=Zomato.OpenZomatoWebsite()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="RegisterUser()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="RegisterUser" duration-ms="6644" started-at="2019-10-12T20:06:53Z" finished-at="2019-10-12T20:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:06:53Z" finished-at="2019-10-12T20:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.RegisterUser() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:06:59Z" finished-at="2019-10-12T20:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterUser status=SUCCESS method=Zomato.RegisterUser()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginWithEmail()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="LoginWithEmail" duration-ms="38089" started-at="2019-10-12T20:06:59Z" finished-at="2019-10-12T20:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmail -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:06:59Z" finished-at="2019-10-12T20:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.LoginWithEmail() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-12T20:07:37Z" finished-at="2019-10-12T20:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithEmail status=SUCCESS method=Zomato.LoginWithEmail()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:07:37Z" finished-at="2019-10-12T20:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void webappautomation.Zomato.editUserInformation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editUserInformation()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="editUserInformation" duration-ms="49225" started-at="2019-10-12T20:07:37Z" finished-at="2019-10-12T20:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUserInformation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:08:27Z" finished-at="2019-10-12T20:08:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editUserInformation status=SUCCESS method=Zomato.editUserInformation()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SearchRestaurant()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="SearchRestaurant" duration-ms="9689" started-at="2019-10-12T20:08:27Z" finished-at="2019-10-12T20:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRestaurant -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:08:27Z" finished-at="2019-10-12T20:08:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.SearchRestaurant() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:08:36Z" finished-at="2019-10-12T20:08:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchRestaurant status=SUCCESS method=Zomato.SearchRestaurant()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:08:36Z" finished-at="2019-10-12T20:08:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.GetRestaurantInfo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetRestaurantInfo()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="GetRestaurantInfo" duration-ms="20500" started-at="2019-10-12T20:08:36Z" finished-at="2019-10-12T20:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRestaurantInfo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="7" started-at="2019-10-12T20:08:57Z" finished-at="2019-10-12T20:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRestaurantInfo status=SUCCESS method=Zomato.GetRestaurantInfo()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:08:57Z" finished-at="2019-10-12T20:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.ViewMenu() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ViewMenu()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="ViewMenu" duration-ms="11958" started-at="2019-10-12T20:08:57Z" finished-at="2019-10-12T20:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewMenu -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:09:09Z" finished-at="2019-10-12T20:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewMenu status=SUCCESS method=Zomato.ViewMenu()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:09:09Z" finished-at="2019-10-12T20:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.ViewReview() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ViewReview()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="ViewReview" duration-ms="28332" started-at="2019-10-12T20:09:09Z" finished-at="2019-10-12T20:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewReview -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-12T20:09:37Z" finished-at="2019-10-12T20:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewReview status=SUCCESS method=Zomato.ViewReview()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:09:37Z" finished-at="2019-10-12T20:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.ViewPhotos() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ViewPhotos()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="ViewPhotos" duration-ms="8687" started-at="2019-10-12T20:09:37Z" finished-at="2019-10-12T20:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewPhotos -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:09:46Z" finished-at="2019-10-12T20:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewPhotos status=SUCCESS method=Zomato.ViewPhotos()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:09:46Z" finished-at="2019-10-12T20:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.GetDirections() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetDirections()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="GetDirections" duration-ms="56517" started-at="2019-10-12T20:09:46Z" finished-at="2019-10-12T20:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDirections -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:10:42Z" finished-at="2019-10-12T20:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetDirections status=SUCCESS method=Zomato.GetDirections()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:10:42Z" finished-at="2019-10-12T20:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.BookmarkRestaurant() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookmarkRestaurant()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="BookmarkRestaurant" duration-ms="50706" started-at="2019-10-12T20:10:42Z" finished-at="2019-10-12T20:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookmarkRestaurant -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:11:33Z" finished-at="2019-10-12T20:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookmarkRestaurant status=SUCCESS method=Zomato.BookmarkRestaurant()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="RateARestaurant()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="RateARestaurant" duration-ms="23548" started-at="2019-10-12T20:11:33Z" finished-at="2019-10-12T20:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RateARestaurant -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:11:33Z" finished-at="2019-10-12T20:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.RateARestaurant() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-12T20:11:57Z" finished-at="2019-10-12T20:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RateARestaurant status=SUCCESS method=Zomato.RateARestaurant()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="AddReview()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="AddReview" duration-ms="20916" started-at="2019-10-12T20:11:57Z" finished-at="2019-10-12T20:12:18Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LAP137', ip: '169.254.75.42', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ROHAN~1.BAR\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1eee976c72469f861d2743a920b5ddc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LAP137', ip: '169.254.75.42', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ROHAN~1.BAR\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1eee976c72469f861d2743a920b5ddc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at webappautomation.Zomato.AddReview(Zomato.java:501)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReview -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:11:57Z" finished-at="2019-10-12T20:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.AddReview() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="7" started-at="2019-10-12T20:12:18Z" finished-at="2019-10-12T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddReview status=FAILURE method=Zomato.AddReview()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:12:18Z" finished-at="2019-10-12T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.RestaurantsVisited() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RestaurantsVisited()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="RestaurantsVisited" duration-ms="25875" started-at="2019-10-12T20:12:18Z" finished-at="2019-10-12T20:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestaurantsVisited -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:12:43Z" finished-at="2019-10-12T20:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RestaurantsVisited status=SUCCESS method=Zomato.RestaurantsVisited()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:12:43Z" finished-at="2019-10-12T20:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.AddToCollection() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddToCollection()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="AddToCollection" duration-ms="13773" started-at="2019-10-12T20:12:43Z" finished-at="2019-10-12T20:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCollection -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-10-12T20:12:57Z" finished-at="2019-10-12T20:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCollection status=SUCCESS method=Zomato.AddToCollection()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:12:57Z" finished-at="2019-10-12T20:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.BookATable() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookATable()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="BookATable" duration-ms="7088" started-at="2019-10-12T20:12:57Z" finished-at="2019-10-12T20:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookATable -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-10-12T20:13:04Z" finished-at="2019-10-12T20:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookATable status=SUCCESS method=Zomato.BookATable()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:13:04Z" finished-at="2019-10-12T20:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void webappautomation.Zomato.orderFood() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="orderFood()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="orderFood" duration-ms="37543" started-at="2019-10-12T20:13:04Z" finished-at="2019-10-12T20:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderFood -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-12T20:13:42Z" finished-at="2019-10-12T20:13:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderFood status=SUCCESS method=Zomato.orderFood()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:13:42Z" finished-at="2019-10-12T20:13:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.ViewOrderHistory() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ViewOrderHistory()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="ViewOrderHistory" duration-ms="29815" started-at="2019-10-12T20:13:42Z" finished-at="2019-10-12T20:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewOrderHistory -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:12Z" finished-at="2019-10-12T20:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewOrderHistory status=SUCCESS method=Zomato.ViewOrderHistory()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:14:12Z" finished-at="2019-10-12T20:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.SearchRestaurantByTypeOfMeal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchRestaurantByTypeOfMeal()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="SearchRestaurantByTypeOfMeal" duration-ms="3601" started-at="2019-10-12T20:14:12Z" finished-at="2019-10-12T20:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRestaurantByTypeOfMeal -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-12T20:14:15Z" finished-at="2019-10-12T20:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchRestaurantByTypeOfMeal status=SUCCESS method=Zomato.SearchRestaurantByTypeOfMeal()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:14:15Z" finished-at="2019-10-12T20:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.GetBestRestaurants() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetBestRestaurants()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="GetBestRestaurants" duration-ms="26048" started-at="2019-10-12T20:14:15Z" finished-at="2019-10-12T20:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBestRestaurants -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:41Z" finished-at="2019-10-12T20:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetBestRestaurants status=SUCCESS method=Zomato.GetBestRestaurants()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:41Z" finished-at="2019-10-12T20:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.ViewTrendingRestaurants() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ViewTrendingRestaurants()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="ViewTrendingRestaurants" duration-ms="10298" started-at="2019-10-12T20:14:41Z" finished-at="2019-10-12T20:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTrendingRestaurants -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:52Z" finished-at="2019-10-12T20:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewTrendingRestaurants status=SUCCESS method=Zomato.ViewTrendingRestaurants()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:52Z" finished-at="2019-10-12T20:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.GetZomatoApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GetZomatoApp()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="GetZomatoApp" duration-ms="5108" started-at="2019-10-12T20:14:52Z" finished-at="2019-10-12T20:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetZomatoApp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:57Z" finished-at="2019-10-12T20:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetZomatoApp status=SUCCESS method=Zomato.GetZomatoApp()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="1" started-at="2019-10-12T20:14:57Z" finished-at="2019-10-12T20:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.BuyZomatoGold() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BuyZomatoGold()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="BuyZomatoGold" duration-ms="25753" started-at="2019-10-12T20:14:57Z" finished-at="2019-10-12T20:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyZomatoGold -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:15:23Z" finished-at="2019-10-12T20:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuyZomatoGold status=SUCCESS method=Zomato.BuyZomatoGold()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="2" started-at="2019-10-12T20:15:23Z" finished-at="2019-10-12T20:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void webappautomation.Zomato.AboutUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUs()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="AboutUs" duration-ms="26610" started-at="2019-10-12T20:15:23Z" finished-at="2019-10-12T20:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:15:49Z" finished-at="2019-10-12T20:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUs status=SUCCESS method=Zomato.AboutUs()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-12T20:15:49Z" finished-at="2019-10-12T20:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webappautomation.Zomato.Logout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="Logout" duration-ms="26236" started-at="2019-10-12T20:15:49Z" finished-at="2019-10-12T20:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-12T20:16:15Z" finished-at="2019-10-12T20:16:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=Zomato.Logout()[pri:0, instance:webappautomation.Zomato@47f37ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-10-12T20:16:15Z" finished-at="2019-10-12T20:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:webappautomation.Zomato@47f37ef1]" name="endReport" is-config="true" duration-ms="413" started-at="2019-10-12T20:16:15Z" finished-at="2019-10-12T20:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- webappautomation.Zomato -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
